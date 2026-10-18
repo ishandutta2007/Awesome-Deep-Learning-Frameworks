@@ -42,43 +42,14 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **NVIDIA DGX Cloud**  
-
-  **Managed AI training infrastructure** on NVIDIA's DGX systems. Provides dedicated GPU clusters with NVIDIA AI Enterprise software, optimized for large-scale training and inference. **Best for**: enterprises wanting **NVIDIA-validated infrastructure** without managing hardware.
-
-
-
-- **Google Cloud TPU**  
-
-  **Google's custom ASIC accelerators** for deep learning. **TPUs are optimized for TensorFlow and JAX workloads**—particularly transformer training and inference. **Best for**: teams training large models on Google Cloud who can leverage XLA compilation and TPU-specific optimizations.
-
-
-
-- **AWS Inferentia**  
-
-  **AWS's custom inference chips** for cost-optimized model serving. **Inferentia2** targets LLM inference with high throughput and low latency. **Best for**: production inference on AWS where **cost-per-inference matters more than raw flexibility**.
-
-
-
-- **Lambda Labs**  
-
-  **GPU cloud with on-demand and reserved instances** for AI training and inference. Features one-click Jupyter notebooks, pre-configured ML environments, and multi-node cluster support. **Best for**: teams wanting **transparent GPU pricing** and fast access to NVIDIA hardware.
-
-
-
-- **CoreWeave**  
-
-  **The AI Hyperscaler**—purpose-built cloud for accelerated computing. **H100 on-demand at $6.16/GPU/hr** (list rate) with **free egress**. Raised prices 37.5% across two increases in 2026, signaling strong demand. **Best for**: large-scale training clusters with **predictable networking costs**.
-
-
-
-- **RunPod**  
-
-  **GPU cloud with serverless endpoints, pods, and secure cloud options**. Instant deployment, per-second billing, and community cloud pricing. **Best for**: developers wanting **affordable GPU access** without long-term commitments.
-
-
+| Product | Company Valuation / Market Cap | Starting Pricing | Free Tier / Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **NVIDIA DGX Cloud** | ~$5.5 Trillion (NVIDIA) | Starts at $36,999/instance/month (8x A100/H100 GPU node) | No free tier or trial for dedicated DGX Cloud supercomputers; free developer prototyping access available for NVIDIA NIM APIs via NVIDIA Developer Program | **Managed AI training infrastructure** on NVIDIA's DGX systems. Dedicated GPU clusters with NVIDIA AI Enterprise software. **Best for**: enterprises wanting NVIDIA-validated infrastructure without managing hardware. |
+| **Google Cloud TPU** | ~$4.2 Trillion (Alphabet) | Starts at $1.20/chip-hour (TPU v5e on-demand); Spot from ~$0.60/chip-hour | 90-day free trial with $300 in Google Cloud credits applicable across GCP services including TPUs (no permanent free tier for hardware accelerators) | **Google's custom ASIC accelerators** optimized for TensorFlow and JAX workloads. **Best for**: teams training large transformer models on GCP leveraging XLA compilation. |
+| **AWS Inferentia** | ~$2.7 Trillion (Amazon) | Starts at $0.228/hour (`inf1.xlarge`); $0.758/hour (`inf2.xlarge`) on-demand | No dedicated free tier for Inf1/Inf2; compatible with new-account standard promotional credits (e.g., $200 sign-up credits) or 2-month Amazon SageMaker Free Tier limits | **AWS's custom inference chips** for cost-optimized model serving (Inferentia2 for LLM low latency). **Best for**: production inference on AWS where cost-per-inference matters. |
+| **CoreWeave** | ~$35 Billion | Starts at $0.78/GPU/hour (lower tiers/spot); $6.16/GPU/hour (H100 on-demand) | No permanent free tier or public self-serve trial; occasional promotional credits granted via sales or startup applications | **The AI Hyperscaler**—purpose-built cloud for accelerated computing with zero data egress fees. **Best for**: large-scale training clusters with predictable networking costs. |
+| **Lambda Labs** | ~$14.5 Billion | Starts at $0.79/GPU/hour (on-demand); reserved instances available | No permanent free tier; one-time promotional sign-up trial credits (~$10) offered for eligible new accounts | **GPU cloud with on-demand and reserved instances** featuring one-click Jupyter notebooks and per-minute billing. **Best for**: teams wanting transparent GPU pricing and fast NVIDIA hardware access. |
+| **RunPod** | ~$1.0 Billion | Starts at $0.27/hour (Community Cloud) / $0.44/hour (Secure Cloud); per-second billing | No permanent free tier; $10 promotional sign-up trial credit for new accounts to test pods/serverless endpoints | **GPU cloud with serverless endpoints and pods**. Instant deployment and zero egress charges. **Best for**: developers wanting affordable GPU access without long-term commitments. |
 
 ## Open-Source GitHub Projects
 
