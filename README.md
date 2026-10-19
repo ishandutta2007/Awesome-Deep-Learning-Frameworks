@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Frameworks?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Frameworks?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Deep-Learning-Frameworks?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Frameworks/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Deep-Learning-Frameworks" alt="GitHub issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
@@ -68,74 +68,74 @@ The global AI Infrastructure and Cloud AI market is experiencing an unprecedente
 
 ## 🔓 Open-Source GitHub Projects
 
-Sorted by GitHub Stars (descending):
+Sorted by GitHub_Stars (descending):
 
-1. ### **TensorFlow** [![GitHub stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers) 🌟
+1. ### **TensorFlow** [![GitHub_Stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers) 🌟
    **An end-to-end open-source machine learning platform** (Apache-2.0).  
    * **Key Strengths**: Industrial-grade deployment tooling (TensorFlow Serving, TensorFlow Lite for mobile/edge, TensorFlow.js), mature production pipelines, and multi-language support (Python, C++, Java).  
    * **Best For**: Large-scale industrial production deployments and edge/embedded ML applications.
 
-2. ### **Hugging Face Transformers** [![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) 🤗
+2. ### **Hugging Face Transformers** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) 🤗
    **State-of-the-art Machine Learning for PyTorch, TensorFlow, and JAX** (Apache-2.0).  
    * **Key Strengths**: The gold standard model hub with over 1M+ checkpoints for text, vision, audio, and multimodal tasks; unified APIs for fine-tuning and inference.  
    * **Best For**: Rapidly building, fine-tuning, and sharing state-of-the-art transformer architectures.
 
-3. ### **llama.cpp** [![GitHub stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers) 🦙
+3. ### **llama.cpp** [![GitHub_Stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers) 🦙
    **LLM inference in C/C++ with zero dependencies and cross-platform acceleration** (MIT).  
    * **Key Strengths**: Extremely high-efficiency local inference on Apple Silicon, x86 CPU AVX2/AVX512, and NVIDIA/AMD GPUs via 2-bit to 8-bit integer quantization (GGUF).  
    * **Best For**: On-device and self-hosted local LLM serving with minimal memory footprint.
 
-4. ### **PyTorch** [![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers) 🔥
+4. ### **PyTorch** [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers) 🔥
    **Tensors and dynamic neural networks in Python with strong GPU acceleration** (BSD-3-Clause).  
    * **Key Strengths**: Dynamic computation graphs (eager mode by default), native Pythonic debugging, PyTorch 2.x `torch.compile` graph optimization, and the dominant framework for modern AI research papers.  
    * **Best For**: Frontier AI research, rapid prototyping, and scalable deep learning model development.
 
-5. ### **vLLM** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) ⚡
+5. ### **vLLM** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) ⚡
    **High-throughput and memory-efficient LLM serving engine** (Apache-2.0).  
    * **Key Strengths**: Pioneered PagedAttention for optimal KV-cache memory management; continuous batching, chunked prefill, and speculative decoding yielding 2x–4x throughput improvements over naive serving.  
    * **Best For**: High-throughput production LLM serving, enterprise inference clusters, and API backends.
 
-6. ### **Keras** [![GitHub stars](https://img.shields.io/github/stars/keras-team/keras?style=social&color=white)](https://github.com/keras-team/keras/stargazers) 🎯
+6. ### **Keras** [![GitHub_Stars](https://img.shields.io/github/stars/keras-team/keras?style=social&color=white)](https://github.com/keras-team/keras/stargazers) 🎯
    **Multi-backend deep learning framework for TensorFlow, PyTorch, and JAX** (Apache-2.0).  
    * **Key Strengths**: Simple, elegant, modular API that allows seamless switching between PyTorch, JAX, and TensorFlow backends without altering model architecture code.  
    * **Best For**: Rapid experimentation, educational workflows, and cross-framework library authoring.
 
-7. ### **DeepSpeed** [![GitHub stars](https://img.shields.io/github/stars/microsoft/DeepSpeed?style=social&color=white)](https://github.com/microsoft/DeepSpeed/stargazers) 🚄
+7. ### **DeepSpeed** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/DeepSpeed?style=social&color=white)](https://github.com/microsoft/DeepSpeed/stargazers) 🚄
    **Deep learning optimization library for extreme-scale distributed training and inference** (Apache-2.0).  
    * **Key Strengths**: ZeRO (Zero Redundancy Optimizer) stages 1, 2, and 3; CPU/NVMe memory offloading, pipeline parallelism, and low-latency inference optimizations.  
    * **Best For**: Training and fine-tuning multi-billion parameter foundation models on hardware-constrained GPU clusters.
 
-8. ### **JAX** [![GitHub stars](https://img.shields.io/github/stars/google/jax?style=social&color=white)](https://github.com/google/jax/stargazers) 🧮
+8. ### **JAX** [![GitHub_Stars](https://img.shields.io/github/stars/google/jax?style=social&color=white)](https://github.com/google/jax/stargazers) 🧮
    **Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU** (Apache-2.0).  
    * **Key Strengths**: Functional programming paradigm with first-class primitives (`jit`, `grad`, `vmap`, `pmap`) compiled directly to XLA for near-linear multi-accelerator scaling.  
    * **Best For**: Cutting-edge research, scientific computing, reinforcement learning, and high-performance TPU/GPU modeling.
 
-9. ### **PyTorch Lightning** [![GitHub stars](https://img.shields.io/github/stars/Lightning-AI/pytorch-lightning?style=social&color=white)](https://github.com/Lightning-AI/pytorch-lightning/stargazers) ⚡
+9. ### **PyTorch Lightning** [![GitHub_Stars](https://img.shields.io/github/stars/Lightning-AI/pytorch-lightning?style=social&color=white)](https://github.com/Lightning-AI/pytorch-lightning/stargazers) ⚡
    **Lightweight PyTorch wrapper and structured training orchestration** (Apache-2.0).  
    * **Key Strengths**: Separates research science from engineering boilerplate; automatic multi-GPU/TPU distributed handling, checkpointing, mixed precision, and telemetry hooks.  
    * **Best For**: Teams wanting the raw flexibility of PyTorch coupled with clean, reproducible engineering structures.
 
-10. ### **PaddlePaddle** [![GitHub stars](https://img.shields.io/github/stars/PaddlePaddle/Paddle?style=social&color=white)](https://github.com/PaddlePaddle/Paddle/stargazers) 🛶
+10. ### **PaddlePaddle** [![GitHub_Stars](https://img.shields.io/github/stars/PaddlePaddle/Paddle?style=social&color=white)](https://github.com/PaddlePaddle/Paddle/stargazers) 🛶
     **PArallel Distributed Deep LEarning platform by Baidu** (Apache-2.0).  
     * **Key Strengths**: Comprehensive end-to-end industrial ecosystem featuring rich pre-trained model repositories (PaddleOCR, PaddleDetection, PaddleNLP) and optimized deployment kits.  
     * **Best For**: Enterprise computer vision, document intelligence, and Chinese NLP applications.
 
-11. ### **ONNX (Open Neural Network Exchange)** [![GitHub stars](https://img.shields.io/github/stars/onnx/onnx?style=social&color=white)](https://github.com/onnx/onnx/stargazers) 🔄
+11. ### **ONNX (Open Neural Network Exchange)** [![GitHub_Stars](https://img.shields.io/github/stars/onnx/onnx?style=social&color=white)](https://github.com/onnx/onnx/stargazers) 🔄
     **Open standard format to represent and exchange machine learning models** (Apache-2.0).  
     * **Key Strengths**: Framework-agnostic model interchange format supported by PyTorch, TensorFlow, TensorRT, and OpenVINO; enables cross-platform deployment portability.  
     * **Best For**: Interoperability between training frameworks and target hardware runtimes (ONNX Runtime, mobile, edge devices).
 
-12. ### **Apache MXNet** [![GitHub stars](https://img.shields.io/github/stars/apache/mxnet?style=social&color=white)](https://github.com/apache/mxnet/stargazers) 🏛️
+12. ### **Apache MXNet** [![GitHub_Stars](https://img.shields.io/github/stars/apache/mxnet?style=social&color=white)](https://github.com/apache/mxnet/stargazers) 🏛️
     **Scalable deep learning framework supporting multi-language bindings** (Apache-2.0).  
     * **Key Strengths**: Built for multi-GPU efficiency and multi-language support (Python, R, Julia, Go, C++, Scala); historically adopted by AWS for scalable model deployment.  
     * **Best For**: Legacy multi-language distributed systems and academic exploration.
 
-13. ### **Triton (OpenAI)** [![GitHub stars](https://img.shields.io/github/stars/triton-lang/triton?style=social&color=white)](https://github.com/triton-lang/triton/stargazers) 🔱
+13. ### **Triton (OpenAI)** [![GitHub_Stars](https://img.shields.io/github/stars/triton-lang/triton?style=social&color=white)](https://github.com/triton-lang/triton/stargazers) 🔱
     **Programming language and compiler for writing highly efficient custom deep learning kernels** (MIT).  
     * **Key Strengths**: Allows Python developers to author peak-performance GPU kernels with productivity significantly higher than CUDA; native compiler engine powering PyTorch 2.0 `torch.compile`.  
     * **Best For**: ML researchers and engineers building custom attention algorithms, novel activation kernels, and custom hardware accelerators.
 
-14. ### **Flax** [![GitHub stars](https://img.shields.io/github/stars/google/flax?style=social&color=white)](https://github.com/google/flax/stargazers) 🌿
+14. ### **Flax** [![GitHub_Stars](https://img.shields.io/github/stars/google/flax?style=social&color=white)](https://github.com/google/flax/stargazers) 🌿
     **Neural network library and ecosystem designed for JAX** (Apache-2.0).  
     * **Key Strengths**: Modular, functional neural network layer built by Google DeepMind and Google Research; leverages JAX's full transformation suite with clean state management.  
     * **Best For**: JAX practitioners training vision transformers, diffusion models, and LLMs on TPU pods.
@@ -195,3 +195,12 @@ If this curated deep learning ecosystem guide helps your projects, workflows, or
   <b>Built for ML engineers, AI researchers, and systems architects building scalable deep learning solutions.</b><br/>
   <i>Let's make Deep Learning Frameworks open, data-driven, and hardware-aware.</i> 🚀
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Deep-Learning-Frameworks&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Deep-Learning-Frameworks_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Deep-Learning-Frameworks_growth.svg">
+  </picture>
+</a>
